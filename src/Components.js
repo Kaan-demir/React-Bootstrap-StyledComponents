@@ -1,16 +1,20 @@
-import styled, {css} from "styled-components"  // paketi kurulan styled-component çekildi.  // css i props için dahil ettik 
-                                              // npm i styled-components 
+import styled, {css} from "styled-components"  
+                                              
 
-export const Title=styled.span`
+export const P=styled.p
+
+`
 font-size:50px;
 font-weight:600;
 color:black;
 
 
+
 ${props=>props.theme === 'blue' && css`
 background:blue;
-color:orange;
-
+color:white;
+padding:10px 24px;
+border-radius:17px;
 `}
 
 
