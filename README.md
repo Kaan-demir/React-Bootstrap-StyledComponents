@@ -1,6 +1,6 @@
 ## How to Use React Styled-Components?
 
-Hello! I want to tell you about styled components.
+Hi! I want to tell you about styled components.
 
 Styled Components is a popular library for styling React applications using tagged template literals. With ** Styled Components ** you can create dynamic styles based on component props, enabling responsive design and theming. Styles are scoped to the component, preventing global style conflicts and ensuring that styles are applied only where intended.
 
